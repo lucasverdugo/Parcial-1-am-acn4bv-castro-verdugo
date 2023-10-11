@@ -1,0 +1,26 @@
+----------------------------- Parcial 1 - Aplicaciones Móviles -------------------------------------
+Comisión: ACN4BV
+Carrera: Analísta de Sistemas
+Turno: Noche
+Profesor: Sergio Medina
+
+Grupo: Luciano Castro - Lucas Verdugo
+
+--------------------------------- Aplicación muy "boca" .net ---------------------------------------
+muy "boca" .net se trata de una aplicación de novedades deportivas orientada a futbol, donde el usu-
+ario pueda hacer seguimiento de sus equipos favoritos, agregar nuevos equipos y ver novedades en ti-
+empo real.
+
+Prototipo de proyecto - https://www.figma.com/file/8BRFvg9jLHTm1ohWQXoJFF/Untitled?type=design&node-
+id=0-1&mode=design&t=6PaTBnoMsJX6yFYK-0
+
+Descriptivo del flujo:
+1- Pantalla inicial con inicio de sesión
+2- Pantalla de validación de sesión
+3- Pantalla de registro
+4- Pantalla Home con 3 secciones
+   4a - Novedades
+   4b - Mis Equipos
+   4c - Agregar Equipos
+5- Detalle de noticias (de acuerdo a la selección del usuario en pantalla anterior en NOVEDADES - M-
+IS EQUIPOS)
