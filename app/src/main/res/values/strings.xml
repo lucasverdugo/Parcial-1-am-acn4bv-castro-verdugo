@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Parcial-1-am-acn4bv-castro-verdugo</string>
+    <string name="registrame">Registrame</string>
+    <string name="iniciarSesion">Iniciar Sesión</string>
+    <string name="nombreApp">Ensobra2</string>
+
 </resources>
