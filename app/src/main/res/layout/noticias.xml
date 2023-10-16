@@ -1,6 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerMenu">
+
+        <TextView
+            android:id="@+id/tiuloNovedades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/noticias"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:onClick="onClickCentral"
+                    android:scaleType="centerCrop"
+                    android:scaleX="1"
+                    android:scaleY="1"
+                    android:src="@drawable/centralcordoba"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/btn2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:onClick="onClickBoca"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/boca"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/btn3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:onClick="onClickRiver"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/river"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/btn4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:onClick="onClickRosario"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rosariocentral"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/btn5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:onClick="onClickDefensa"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/defensa"
+
+                    />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/tituloNoticia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tituloNoticia"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="433dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/content1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content1"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1359dp"
+                    android:contentDescription="@string/imagen"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bienvenida1" />
+
+                <TextView
+                    android:id="@+id/content2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content2"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/headerMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/fondoMenu"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:contentDescription="@string/fondo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bienvenida2" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logoNoticias5"
+        android:layout_width="217dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/logofinal"
+        app:layout_constraintBottom_toBottomOf="@+id/headerMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

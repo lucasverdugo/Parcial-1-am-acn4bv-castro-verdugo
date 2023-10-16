@@ -2,6 +2,35 @@
     <string name="app_name">Parcial-1-am-acn4bv-castro-verdugo</string>
     <string name="registrame">Registrame</string>
     <string name="iniciarSesion">Iniciar Sesión</string>
+    <string name="inicioSesionTitulo">Inicio de Sesión</string>
+    <string name="registroTitulo">Registro de Usuario</string>
+    <string name="yaTengoUsuario">Ya tengo un usuario</string>
+    <string name="labelNombre">Nombre</string>
+    <string name="labelApellido">Apellido</string>
+    <string name="lableMail">Mail</string>
+    <string name="labeContraseña">Contraseña</string>
     <string name="nombreApp">Ensobra2</string>
+    <string name="logo">Logo</string>
+    <string name="fondo">fondo</string>
+    <string name="imagen">imagen</string>
+    <string name="noticias">Novedades</string>
+    <string name="tituloNoticia">Titulo de noticia</string>
+    <string name="content1">Contenido de noticia</string>
+    <string name="content2">Contenido de noticia</string>
+    <string name="tituloNoticiaCentral">Central de Cordoba ganó el campeonato local</string>
+    <string name="contenido1Central">Central de Cordoba quedó primero y gano la maxima competencia nacional.</string>
+    <string name="contenido2Central">Central de Cordoba jugara en la proxima Libertadores</string>
+    <string name="tituloNoticiaBoca">Boca ganó el campeonato local</string>
+    <string name="contenido1Boca">Boca quedó primero y gano la maxima competencia nacional.</string>
+    <string name="contenido2Boca">Boca jugara en la proxima Libertadores</string>
+    <string name="tituloNoticiaRiver">River ganó el campeonato local</string>
+    <string name="contenido1River">River quedó primero y gano la maxima competencia nacional.</string>
+    <string name="contenido2River">River jugara en la proxima Libertadores</string>
+    <string name="tituloNoticiaRosario">Rosario Central ganó el campeonato local</string>
+    <string name="contenido1Rosario">Rosario Central quedó primero y gano la maxima competencia nacional.</string>
+    <string name="contenido2Rosario">Rosario Central jugara en la proxima Libertadores</string>
+    <string name="tituloNoticiaDefensa">Defensa y Justicia ganó el campeonato local</string>
+    <string name="contenido1Defensa">Defensa y Justicia quedó primero y gano la maxima competencia nacional.</string>
+    <string name="contenido2Defensa">Defensa y Justicia jugara en la proxima Libertadores</string>
 
 </resources>
