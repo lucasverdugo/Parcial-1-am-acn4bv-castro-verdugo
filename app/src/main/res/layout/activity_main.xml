@@ -14,7 +14,7 @@
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/headerMenu">
+        app:layout_constraintTop_toBottomOf="@+id/header">
 
         <TextView
             android:id="@+id/tiuloNovedades"
@@ -22,6 +22,7 @@
             android:layout_height="wrap_content"
             android:text="@string/noticias"
             android:textAlignment="center"
+            android:textSize="@dimen/textSize"
             android:textStyle="bold" />
 
         <HorizontalScrollView
@@ -97,6 +98,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tituloNoticia"
+            android:textSize="@dimen/titleSize"
             android:textStyle="bold" />
 
         <ScrollView
@@ -113,12 +115,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/content1"
+                    android:textSize="@dimen/textSize"
                     android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/image1"
                     android:layout_width="match_parent"
-                    android:layout_height="1359dp"
+                    android:layout_height="@dimen/imageHeigth"
                     android:contentDescription="@string/imagen"
                     android:scaleType="centerCrop"
                     android:src="@drawable/bienvenida1" />
@@ -128,6 +131,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/content2"
+                    android:textSize="@dimen/textSize"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -136,7 +140,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/headerMenu"
+        android:id="@+id/header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -145,7 +149,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/fondoMenu"
+            android:id="@+id/fondo"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:contentDescription="@string/fondo"
@@ -159,7 +163,7 @@
         android:layout_height="46dp"
         android:contentDescription="@string/logo"
         android:src="@drawable/logofinal"
-        app:layout_constraintBottom_toBottomOf="@+id/headerMenu"
+        app:layout_constraintBottom_toBottomOf="@+id/header"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
