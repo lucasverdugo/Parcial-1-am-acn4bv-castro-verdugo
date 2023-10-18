@@ -17,7 +17,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnInicioSesion" />
 
     <LinearLayout
-        android:id="@+id/linearLayout3"
+        android:id="@+id/tituloRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -26,7 +26,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/headerMenu">
+        app:layout_constraintTop_toBottomOf="@+id/header">
 
         <TextView
             android:id="@+id/tituloInicio"
@@ -36,7 +36,7 @@
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="24sp"
+            android:textSize="@dimen/titleSize"
             android:textStyle="bold" />
 
         <LinearLayout
@@ -45,23 +45,24 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/labelMailRegistro"
-                android:layout_width="71dp"
+                android:id="@+id/labelMailInicio"
+                android:layout_width="@dimen/labelWidth"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/lableMail"
                 android:textColor="@color/black"
-                android:textSize="16sp" />
+                android:textSize="@dimen/textSize" />
 
             <EditText
-                android:id="@+id/inputNombreRegistro"
+                android:id="@+id/inputMailnicio"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/inputText"
                 android:layout_weight="1"
                 android:ems="10"
+                android:hint="@string/lableMail"
                 android:inputType="text"
                 android:textColor="@color/black"
-                android:textSize="16sp" />
+                android:textSize="@dimen/textSize" />
 
         </LinearLayout>
 
@@ -71,29 +72,30 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/labelApellidoRegistro"
-                android:layout_width="wrap_content"
+                android:id="@+id/labelContrasenaInicio"
+                android:layout_width="@dimen/labelWidth"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/labeContraseña"
                 android:textColor="@color/black"
-                android:textSize="16sp" />
+                android:textSize="@dimen/textSize" />
 
             <EditText
-                android:id="@+id/inputApellidoRegistro"
+                android:id="@+id/inputContrasenaInicio"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/inputText"
                 android:layout_weight="1"
                 android:ems="10"
+                android:hint="@string/labeContraseña"
                 android:inputType="text"
                 android:textColor="@color/black"
-                android:textSize="16sp" />
+                android:textSize="@dimen/textSize" />
         </LinearLayout>
 
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/headerMenu"
+        android:id="@+id/header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -102,7 +104,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/fondoMenu"
+            android:id="@+id/fondo"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:contentDescription="@string/fondo"
@@ -119,15 +121,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+        app:layout_constraintTop_toBottomOf="@+id/tituloRegistro" />
 
     <ImageView
-        android:id="@+id/logoInicio"
+        android:id="@+id/logo"
         android:layout_width="217dp"
         android:layout_height="46dp"
         android:contentDescription="@string/logo"
         android:src="@drawable/logofinal"
-        app:layout_constraintBottom_toBottomOf="@+id/headerMenu"
+        app:layout_constraintBottom_toBottomOf="@+id/header"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
