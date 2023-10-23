@@ -35,19 +35,6 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/btn1"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_weight="1"
-                    android:scaleType="centerCrop"
-                    android:scaleX="1"
-                    android:scaleY="1"
-                    android:src="@drawable/centralcordoba"
-                    android:onClick="onClickCentral"
-
-                    />
-
-                <ImageButton
                     android:id="@+id/btn2"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -90,6 +77,20 @@
                     android:onClick="onClickDefensa"
 
                     />
+
+                <ImageButton
+                    android:id="@+id/btn1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:scaleX="1"
+                    android:scaleY="1"
+                    android:src="@drawable/centralcordoba"
+                    android:onClick="onClickCentral"
+
+                    />
+
             </LinearLayout>
         </HorizontalScrollView>
 
@@ -124,7 +125,7 @@
                     android:layout_height="@dimen/imageHeigth"
                     android:contentDescription="@string/imagen"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/bienvenida1" />
+                    android:src="@drawable/chiquimafia" />
 
                 <TextView
                     android:id="@+id/content2"
