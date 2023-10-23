@@ -75,12 +75,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ImageButton central = findViewById(R.id.btn1);
-        ImageButton boca = findViewById(R.id.btn2);
-        ImageButton river = findViewById(R.id.btn3);
-        ImageButton rosario = findViewById(R.id.btn4);
-        ImageButton defensa = findViewById(R.id.btn5);
-
-
+        TextView tituloNoticia = findViewById(R.id.tituloNoticia);
+        ImageView imagenNoticia = findViewById(R.id.image1);
+        TextView contenido1 = findViewById(R.id.content1);
+        TextView contenido2 = findViewById(R.id.content2);;
+        tituloNoticia.setText(R.string.tituloNoticia);
+        imagenNoticia.setImageResource(R.drawable.chiquimafia);
+        contenido1.setText(R.string.content1);
+        contenido2.setText(R.string.content2);
     }
 }
