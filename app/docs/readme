@@ -6,8 +6,8 @@ Profesor: Sergio Medina
 
 Grupo: Luciano Castro - Lucas Verdugo
 
---------------------------------- Aplicación muy "boca" .net ---------------------------------------
-muy "boca" .net se trata de una aplicación de novedades deportivas orientada a futbol, donde el usu-
+----------------------------------- Aplicación Ensobra2 --------------------------------------------
+Ensobra2 se trata de una aplicación de novedades deportivas orientada a futbol, donde el usu-
 ario pueda hacer seguimiento de sus equipos favoritos, agregar nuevos equipos y ver novedades en ti-
 empo real.
 
@@ -23,4 +23,4 @@ Descriptivo del flujo:
    4b - Mis Equipos
    4c - Agregar Equipos
 5- Detalle de noticias (de acuerdo a la selección del usuario en pantalla anterior en NOVEDADES - M-
-IS EQUIPOS)
+IS EQUIPOS) (Funcionalidad elegida para mostrar en este parcial)
