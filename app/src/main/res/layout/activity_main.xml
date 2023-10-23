@@ -39,9 +39,9 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
+                    android:onClick="onClickBoca"
                     android:scaleType="centerCrop"
                     android:src="@drawable/boca"
-                    android:onClick="onClickBoca"
 
                     />
 
@@ -50,9 +50,9 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
+                    android:onClick="onClickRiver"
                     android:scaleType="centerCrop"
                     android:src="@drawable/river"
-                    android:onClick="onClickRiver"
 
                     />
 
@@ -61,9 +61,9 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
+                    android:onClick="onClickRosario"
                     android:scaleType="centerCrop"
                     android:src="@drawable/rosariocentral"
-                    android:onClick="onClickRosario"
 
                     />
 
@@ -72,9 +72,9 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
+                    android:onClick="onClickDefensa"
                     android:scaleType="centerCrop"
                     android:src="@drawable/defensa"
-                    android:onClick="onClickDefensa"
 
                     />
 
@@ -83,16 +83,22 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
+                    android:onClick="onClickCentral"
                     android:scaleType="centerCrop"
                     android:scaleX="1"
                     android:scaleY="1"
                     android:src="@drawable/centralcordoba"
-                    android:onClick="onClickCentral"
 
                     />
 
             </LinearLayout>
         </HorizontalScrollView>
+
+        <LinearLayout
+            android:id="@+id/layoutEscudo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"></LinearLayout>
 
         <TextView
             android:id="@+id/tituloNoticia"
