@@ -124,6 +124,72 @@ public class MainActivity extends AppCompatActivity {
         imagenNoticia.setImageResource(R.drawable.defensaimg);
         contenido2.setText(R.string.contenido2Defensa);
     }
+
+    public void onClickIndependiente(View view){
+
+        LinearLayout layoutEscudo = findViewById(R.id.layoutEscudo);
+        ImageView logoIndependiente = new ImageView(this);
+        logoIndependiente.setImageResource(R.drawable.independiente);
+        ViewGroup.LayoutParams layoutParams = new ViewGroup.LayoutParams(400, 400);
+        logoIndependiente.setLayoutParams(layoutParams);
+        layoutEscudo.removeAllViews();
+        layoutEscudo.addView(logoIndependiente);
+        layoutEscudo.setGravity(Gravity.CENTER);
+
+        TextView tituloNoticia = findViewById(R.id.tituloNoticia);
+        ImageView imagenNoticia = findViewById(R.id.image1);
+        TextView contenido1 = findViewById(R.id.content1);
+        TextView contenido2 = findViewById(R.id.content2);
+
+        tituloNoticia.setText(R.string.tituloNoticiaIndependiente);
+        contenido1.setText(R.string.contenido1Independiente);
+        imagenNoticia.setImageResource(R.drawable.independientenoticia);
+        contenido2.setText(R.string.contenido2Independiente);
+    }
+
+    public void onClickRacing(View view){
+
+        LinearLayout layoutEscudo = findViewById(R.id.layoutEscudo);
+        ImageView logoRacing = new ImageView(this);
+        logoRacing.setImageResource(R.drawable.racing);
+        ViewGroup.LayoutParams layoutParams = new ViewGroup.LayoutParams(400, 400);
+        logoRacing.setLayoutParams(layoutParams);
+        layoutEscudo.removeAllViews();
+        layoutEscudo.addView(logoRacing);
+        layoutEscudo.setGravity(Gravity.CENTER);
+
+        TextView tituloNoticia = findViewById(R.id.tituloNoticia);
+        ImageView imagenNoticia = findViewById(R.id.image1);
+        TextView contenido1 = findViewById(R.id.content1);
+        TextView contenido2 = findViewById(R.id.content2);
+
+        tituloNoticia.setText(R.string.tituloNoticiaRacing);
+        contenido1.setText(R.string.contenido1Racing);
+        imagenNoticia.setImageResource(R.drawable.racingnoticia);
+        contenido2.setText(R.string.contenido2Racing);
+    }
+
+    public void onClickNewells(View view){
+
+        LinearLayout layoutEscudo = findViewById(R.id.layoutEscudo);
+        ImageView logoNewells = new ImageView(this);
+        logoNewells.setImageResource(R.drawable.newells);
+        ViewGroup.LayoutParams layoutParams = new ViewGroup.LayoutParams(400, 400);
+        logoNewells.setLayoutParams(layoutParams);
+        layoutEscudo.removeAllViews();
+        layoutEscudo.addView(logoNewells);
+        layoutEscudo.setGravity(Gravity.CENTER);
+
+        TextView tituloNoticia = findViewById(R.id.tituloNoticia);
+        ImageView imagenNoticia = findViewById(R.id.image1);
+        TextView contenido1 = findViewById(R.id.content1);
+        TextView contenido2 = findViewById(R.id.content2);
+
+        tituloNoticia.setText(R.string.tituloNoticiaNewells);
+        contenido1.setText(R.string.contenido1Newells);
+        imagenNoticia.setImageResource(R.drawable.newellsnoticia);
+        contenido2.setText(R.string.contenido2Newells);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
