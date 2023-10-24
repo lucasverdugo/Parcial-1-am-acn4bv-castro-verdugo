@@ -57,6 +57,28 @@
                     />
 
                 <ImageButton
+                    android:id="@+id/btn3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:onClick="onClickIndependiente"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/independiente"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/btn4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:onClick="onClickRacing"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/racing"
+
+                    />
+
+                <ImageButton
                     android:id="@+id/btn5"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -64,6 +86,17 @@
                     android:onClick="onClickRosario"
                     android:scaleType="centerCrop"
                     android:src="@drawable/rosariocentral"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/btn6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:onClick="onClickNewells"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/newells"
 
                     />
 
