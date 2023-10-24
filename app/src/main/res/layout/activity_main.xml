@@ -35,7 +35,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/btn2"
+                    android:id="@+id/btn1"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
@@ -46,7 +46,7 @@
                     />
 
                 <ImageButton
-                    android:id="@+id/btn3"
+                    android:id="@+id/btn2"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
@@ -57,7 +57,7 @@
                     />
 
                 <ImageButton
-                    android:id="@+id/btn4"
+                    android:id="@+id/btn5"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
@@ -68,7 +68,7 @@
                     />
 
                 <ImageButton
-                    android:id="@+id/btn5"
+                    android:id="@+id/btn7"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
@@ -79,7 +79,7 @@
                     />
 
                 <ImageButton
-                    android:id="@+id/btn1"
+                    android:id="@+id/btn8"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
