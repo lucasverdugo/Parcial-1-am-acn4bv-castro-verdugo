@@ -9,7 +9,8 @@ Grupo: Luciano Castro - Lucas Verdugo
 ----------------------------------- Aplicación Ensobra2 --------------------------------------------
 Ensobra2 se trata de una aplicación de novedades deportivas orientada a futbol, donde el usu-
 ario pueda hacer seguimiento de sus equipos favoritos, agregar nuevos equipos y ver novedades en ti-
-empo real.
+empo real. Este portal de noticias se va a basar en noticias del fútbol Argentino. Donde se van a
+mostrar las últimas novedades y si el usuario desea puede filtrar por equipo.
 
 Prototipo de proyecto - https://www.figma.com/file/8BRFvg9jLHTm1ohWQXoJFF/Untitled?type=design&node-
 id=0-1&mode=design&t=6PaTBnoMsJX6yFYK-0
@@ -19,8 +20,9 @@ Descriptivo del flujo:
 2- Pantalla de validación de sesión
 3- Pantalla de registro
 4- Pantalla Home con 3 secciones
-   4a - Novedades
-   4b - Mis Equipos
-   4c - Agregar Equipos
+   4a - Slide Lateral de Equipos
+   4b - Listado de noticias
+   4c - Por cada noticia habrá un título principal, un breve contenido escrito seguido de una imágen
+   para terminar con otro contenido escrito.
 5- Detalle de noticias (de acuerdo a la selección del usuario en pantalla anterior en NOVEDADES - M-
 IS EQUIPOS) (Funcionalidad elegida para mostrar en este parcial)
