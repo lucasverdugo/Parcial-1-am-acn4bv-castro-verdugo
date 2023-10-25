@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="boton">240sp</dimen>
-    <dimen name="inputText">48sp</dimen>
+    <dimen name="boton">240dp</dimen>
+    <dimen name="inputText">48dp</dimen>
     <dimen name ="titleSize">24sp</dimen>
     <dimen name ="textSize">16sp</dimen>
-    <dimen name ="labelWidth">80sp</dimen>
-    <dimen name ="imageHeigth">300sp</dimen>
+    <dimen name ="labelWidth">80dp</dimen>
+    <dimen name ="imageHeigth">300dp</dimen>
+    <dimen name ="scrollView">350dp</dimen>
 </resources>

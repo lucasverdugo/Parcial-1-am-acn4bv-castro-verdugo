@@ -11,6 +11,14 @@
     <string name="labeContraseña">Contraseña</string>
     <string name="nombreApp">Ensobra2</string>
     <string name="logo">Logo</string>
+    <string name="btnBoca">botón boca</string>
+    <string name="btnRiver">botón river</string>
+    <string name="btnCentral">botón central cordoba</string>
+    <string name="btnRosario">botón rosacio</string>
+    <string name="btnIndependiente">botón independiente</string>
+    <string name="btnDefensa">botón defensa</string>
+    <string name="btnNewells">botón newells</string>
+    <string name="btnRacing">botón racing</string>
     <string name="fondo">fondo</string>
     <string name="imagen">imagen</string>
     <string name="noticias">Equipos</string>
